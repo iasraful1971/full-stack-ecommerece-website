@@ -1,6 +1,6 @@
 import { Typography } from "@material-ui/core";
 import { useEffect } from "react";
-//import Chart from "react-apexcharts";
+
 import { Link } from "react-router-dom";
 import "./dashboard.css";
 import Sidebar from "./Sidebar.js";
