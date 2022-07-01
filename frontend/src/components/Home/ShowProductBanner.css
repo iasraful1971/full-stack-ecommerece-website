@@ -1,0 +1,99 @@
+.show-banner-container .big-photo-part {
+  background: #ece1f1;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+.show-banner-container .text-div {
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.show-banner-container .p_percent {
+  background: #f29720;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 4px;
+  padding: 4px;
+  border-radius: 20px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+.show-banner-container .P_name {
+  color: #184363;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.show-banner-container .p_1 .p_button,
+.show-banner-container .p_2 .p_button {
+  background: #39cb74;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+.show-banner-container .p_button {
+  background: #39cb74;
+
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+.show-banner-container .big-photo-part .image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.show-banner-container .p_1 {
+  background: #fbead0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.show-banner-container .p_1 .text-div {
+  display: flex;
+  flex-direction: column;
+}
+.show-banner-container .p_2 {
+  background: #bfe9f9;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .big-photo-part {
+    margin: 20px 0;
+  }
+  .show-banner-container .p_2 .img-div,
+  .show-banner-container .p_1 .img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .row {
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+}
