@@ -12,8 +12,8 @@ const {
   getSingleUserDetails,
   updateUserRole,
   deleteUser
-} = require("../controllers/UserController");
-const { isAuthenticatedUser, authorizedRole } = require("../middleware/Auth");
+} = require("../controllers/UserController.js");
+const { isAuthenticatedUser, authorizedRole } = require("../middleware/Auth.js");
 const router = express.Router();
 
 router.route("/registration").post(createUser);

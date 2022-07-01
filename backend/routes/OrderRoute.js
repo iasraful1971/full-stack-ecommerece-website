@@ -5,9 +5,9 @@ const {
   getAllOrderByAdmin,
   deleteOrder,
   updateAdminOrder,
-} = require("../controllers/OrderController");
+} = require("../controllers/OrderController.js");
 const express = require("express");
-const { isAuthenticatedUser, authorizedRole } = require("../middleware/Auth");
+const { isAuthenticatedUser, authorizedRole } = require("../middleware/Auth.js");
 const router = express.Router();
 
 router.route("/order/new").post(isAuthenticatedUser, createOrder);

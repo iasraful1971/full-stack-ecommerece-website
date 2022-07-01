@@ -10,10 +10,10 @@ const {
   getSingleProduct,
   getAdminProducts,
   getRecentProduct
-} = require("../controllers/ProductController");
+} = require("../controllers/ProductController.js");
 
 const express = require("express");
-const { isAuthenticatedUser, authorizedRole } = require("../middleware/Auth");
+const { isAuthenticatedUser, authorizedRole } = require("../middleware/Auth.js");
 
 const router = express.Router();
 
